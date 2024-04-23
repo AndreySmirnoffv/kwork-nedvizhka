@@ -31,14 +31,55 @@ bot.on('callback_query', async msg => {
         case "location":
             await bot.sendMessage(msg.message.chat.id, "Выбери локаицю: ", locationKeyboard)
             break
-        case "bukit" || "sanur" || "kuta" || "ubud" || "islands":
+        case "bukit":
             await bot.sendMessage(msg.message.chat.id, "Выбери место:", placeKeyboard)
-            user.location = "bukit"
+            user.location = "Букит"
             fs.writeFileSync('./assets/db/db.json', JSON.stringify(db, null, '\t'))
-            console.log(msg.message.text)
             break
-        case "listhold" || "frihold":
+        case 'sanur':
+            await bot.sendMessage(msg.message.chat.id, "Выбери место:", placeKeyboard)
+            user.location = "Санур"
+            fs.writeFileSync('./assets/db/db.json', JSON.stringify(db, null, '\t'))
+            break
+        case 'kuta':
+            await bot.sendMessage(msg.message.chat.id, "Выбери место:", placeKeyboard)
+            user.location = "Кута"
+            fs.writeFileSync('./assets/db/db.json', JSON.stringify(db, null, '\t'))
+            break
+        case 'ubud':
+            await bot.sendMessage(msg.message.chat.id, "Выбери место:", placeKeyboard)
+            user.location = "Убуд"
+            fs.writeFileSync('./assets/db/db.json', JSON.stringify(db, null, '\t'))
+        case 'islands':
+            await bot.sendMessage(msg.message.chat.id, "Выбери место:", placeKeyboard)
+            user.location = "Острова"
+            fs.writeFileSync('./assets/db/db.json', JSON.stringify(db, null, '\t'))
+            break
+        case "listhold":
             await bot.sendMessage(msg.message.chat.id, "Выбери недвижимость: ", typekeyboard)
+            user.place = "Листхолд"
+            fs.writeFileSync('./assets/db/db.json', JSON.stringify(db, null, '\t'))
+            break
+        case 'frihold':
+            await bot.sendMessage(msg.message.chat.id, "Выбери недвижимость: ", typekeyboard)
+            user.place = "Фрихолд"
+            fs.writeFileSync('./assets/db/db.json', JSON.stringify(db, null, '\t'))
+            break
+        case "hotel":
+            user.type = "Гостинечный комеплекс"
+            fs.writeFileSync('./assets/db/db.json', JSON.stringify(db, null, '\t'))
+            break
+        case "villa":
+            user.type = "Вилла"
+            fs.writeFileSync('./assets/db/db.json', JSON.stringify(db, null, '\t'))
+            break
+        case 'appartments':
+            user.type = "appartments"
+            fs.writeFileSync('./assets/db/db.json', JSON.stringify(db, null, '\t'))
+            break
+        case 'ground': 
+            user.type = "Земля"
+            fs.writeFileSync('./assets/db/db.json', JSON.stringify(db, null, '\t'))
             break
         case "back":
             await bot.sendMessage(msg.message.chat.id, "Выбери локаицю: ", locationKeyboard)
@@ -50,10 +91,16 @@ bot.on('callback_query', async msg => {
             await bot.sendMessage(msg.message.chat.id, "Выбери локаицю: ", locationKeyboard)
             break
         case 'all':
+            user.location = ["Букит", "Санур", "Кута", "Убуд"]
+            fs.writeFileSync('./assets/db/db.json', JSON.stringify(db, null, '\t'))
             break
         case 'alltwo':
+            user.place = ["Листхолд", "Фрихолд"]
+            fs.writeFileSync('./assets/db/db.json', JSON.stringify(db, null, '\t'))
             break
         case "allthree":
+            user.place = ["Гостинечный комеплекс", "Вилла", "Аппартаменты", "Земля"]
+            fs.writeFileSync('./assets/db/db.json', JSON.stringify(db, null, '\t'))
             break
     }
 })

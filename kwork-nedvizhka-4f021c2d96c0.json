@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "kwork-nedvizhka",
+  "private_key_id": "4f021c2d96c0b4797e2b9c425cbf7a5b12dff3e8",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDX55ggqpwh3nf+\niOBQRk9T/HzI4QXJcGNDmiMaia/SfpqGXLhNo3ckhmO9X4TId+WYrcJ5YEJslodX\nnJDujqQgHMQ7c9gfVTwE9y6/ow69Kcu/wR4QwrHY4ZhXIkHiCVFQ0U2H7cuINuNx\nZsqfY7X52EtylDkrFmdqoWtVOPFOGoQgIO4yUHwCJdwbmBvd2ZHFeQiD8//Z8jce\nvfhNteMPePw460cgYCqOcQOEFZEvFtZ4TM9SPchm56hQZK//jATmhlZUb5ik0hSC\nGpMLChG2dVj2JJfuNZcYE8C73yxrL+DnVLLXmC2OUBtpNkZcYL2EOt0yMwmpWgAu\nMDIs6thLAgMBAAECggEAHYoHo8yD4RRleXMzsXf1KYn9bqRu3MEeK6UekWZuIlAF\nB0YPRzwKtHoYklPLwHu683kuhtm3LNEpgkCfCayFYwlchb/TPXI1bH5/LGP8Q8BA\nqqMa4HMqzwAKjj1XIzxgHj0MrQDJXIEZ/C1yon0LbDv+EpaZ/b2qd4nPPBE23pb8\nt7JTnQmiqvFAFRBonC2rer65UBpVZZSAjexyIQNNXQfuOwSSUpR8kxTIyt8rihJ/\n1olhiNc6pJLDL7LuWCUJ1FfOD7XzdNG5qK+TwTWkKNEQIy4nFNBoLuhNA55bpOxD\n1FkBUAaZlt8YVUCfEvEwFjLpBd0/ha4mI7O9/NTR4QKBgQD4d0jpixGsoCZZrYwp\nAXHyeOJ5eXOjcnaZaT9M+r4J/1glWx67jmJ7IvIohPZNicCC7klT2vABnwO10TMz\n65D1F14i9+WSKMubYrp3v/CvrJUZXlGVTnhOjHOCy+sEMYmOkiEagOV0L3QITJLF\nhxTH+xGNxnTNu+HEoB49XhOr4QKBgQDec416ST/RWb/P6FRkIikT0Sv91kco276I\n+7cczNMXpqOmt5NDQuHi/q2yTq4FNnlCvGnkRPYcqsHSXTbvxxUsEENa513d66Od\n7U4UGstX49cOb6F+70vZ+Uop7PH+edzjnCP5JzwtoT/ElmT/FSg9yV88eDnu7aok\n+cCnF0ApqwKBgQDt5ljbtJqBrP3LU84l3QpbXb+LC+zbDNfd39YKQPMA44pkijCM\n6LIGsNkoTtb+Ou0m8D0pmzG+e6Czz9C039J1uaAa3zzii0kYSJm92vv7WMWR+qsm\nyHGM1BItpE4sP7oz1lr3437PljgFUjweAU62hAC0vNZNvp1XBPCvVYqEQQKBgQCQ\nHxVeUO7D1/3p2YAzj95FNJPn1VgtJJGBdnPgeOOawx/r96u1PDPVOWOXzln4jp5p\nmmCQwA0j7Y29mR7qonUZI0BAOP4btXs/6mtXozRzMO44MCLVdnwSMOzX1OfEE3gF\nDzhPSBg5B+ukljvA+BgmT70gFFSUc+50Hkuu9eVgGQKBgAs6Kf1P1VwYNnI5oKfz\n0bP4bSsKxLCKfJFbDiNVKHyLSY4SkuoGkLOi0gdZ2288im5OBSZGHpgGlsTEplzt\nd5BdHsh7EHp/LVlHr0AOir4j6LgrdN0H7vZg6o6EMDHn2+dgH5aDdVKxwtMftpVk\nTVfdjJMO/GmG3lzgjDtIMJSk\n-----END PRIVATE KEY-----\n",
+  "client_email": "nedvizhka@kwork-nedvizhka.iam.gserviceaccount.com",
+  "client_id": "112290970833539648803",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/nedvizhka%40kwork-nedvizhka.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}

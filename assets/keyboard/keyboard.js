@@ -30,7 +30,7 @@ module.exports = {
         reply_markup: JSON.stringify({
             inline_keyboard: [
                 [{text: "Гостинечный комплекс", callback_data: "hotel"}, {text: "Вилла", callback_data: "villa"}, {text: "Аппартаменты", callback_data: "appartments"}, {text: "Земля", callback_data: "ground"}],
-                [{text: "Все", callback_data: "allthree"}]
+                [{text: "Все", callback_data: "allthree"}],
                 [{text: "Назад", callback_data: "backthree"}]
             ]
         })

@@ -7,8 +7,13 @@
 	},
 	{
 		"username": "AndreyS108",
-		"location": "",
-		"place": "",
-		"type": ""
+		"location": "Острова",
+		"place": [
+			"Гостинечный комеплекс",
+			"Вилла",
+			"Аппартаменты",
+			"Земля"
+		],
+		"type": "appartments"
 	}
 ]
