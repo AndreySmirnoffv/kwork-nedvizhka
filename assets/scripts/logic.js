@@ -12,7 +12,8 @@ async function readData(){
     const range = 'Sheet1!A1:J20'
     try{
         const response = await sheets.spreadsheets.values.get({
-            spreadSheetId, range
+            spreadsheetId: spreadSheetId, 
+            range
         })
         console.log(response)
         const rows = response.data.values
@@ -27,6 +28,12 @@ async function readData(){
     console.log(data)
 })
 
-module.exports = {
+(async () => {
+    const data = await readData()
+    console.log(data)
+})
 
+
+module.exports = {
+    readData: readData
 }
